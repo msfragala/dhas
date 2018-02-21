@@ -1,0 +1,8 @@
+{
+  "name": "deephas",
+  "version": "0.1.0",
+  "description": "Safe deep property checking",
+  "author": "Mitchell Gates <ms.fragala@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
