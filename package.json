@@ -4,5 +4,15 @@
   "description": "Safe deep property checking",
   "author": "Mitchell Gates <ms.fragala@gmail.com>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "main": "dist/deephas.js",
+  "browser": "dist/deephas.umd.js",
+  "module": "dist/deephas.es.js",
+  "scripts": {
+    "start": "microbundle watch",
+    "build": "microbundle"
+  },
+  "devDependencies": {
+    "microbundle": "^0.4.4"
+  }
 }
