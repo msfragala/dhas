@@ -1,13 +1,13 @@
 {
-  "name": "deephas",
+  "name": "dhas",
   "version": "0.1.0",
   "description": "Safe deep property checking",
   "author": "Mitchell Gates <ms.fragala@gmail.com>",
   "license": "MIT",
   "private": false,
-  "main": "dist/deephas.js",
-  "browser": "dist/deephas.umd.js",
-  "module": "dist/deephas.es.js",
+  "main": "dist/dhas.js",
+  "browser": "dist/dhas.umd.js",
+  "module": "dist/dhas.es.js",
   "scripts": {
     "build": "microbundle",
     "start": "microbundle watch",
