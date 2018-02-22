@@ -21,6 +21,12 @@ test('should consider `null` a value', () => {
   expect(dhas(inputB, 'a.b')).toBe(true);
 });
 
+test('should return false for nonexistent properties', () => {
+  const inputA = { a: null };
+  expect(dhas(inputA, 'a')).toBe(true);
+  expect(dhas(inputA, 'a.b.c.d')).toBe(false);
+});
+
 describe('first parameter', () => {
   test('should accept array', () => {
     expect(dhas([], '0')).toBe(false);
