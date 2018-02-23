@@ -2,7 +2,7 @@
 
 > Check whether an object owns deep properties
 
-## Why?
+## Why
 
 Super small implementation — only 160 bytes!
 
