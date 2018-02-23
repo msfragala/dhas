@@ -1,6 +1,6 @@
 {
   "name": "dhas",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Safe deep property checking",
   "repository": "git@github.com:msfragala/dhas.git",
   "author": "Mitchell Gates <ms.fragala@gmail.com>",
