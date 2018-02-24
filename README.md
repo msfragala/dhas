@@ -20,6 +20,7 @@ npm install dhas
 
 ```js
 import dhas from 'dhas';
+
 const object = { a: { b: { c: null, d: undefined, e: 'string' } } };
 
 // returns true even for null and undefined values
