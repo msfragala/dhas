@@ -37,7 +37,7 @@ dhas(object, ['a', 'b', 'c']); // true
 
 ## Similar libraries
 
-For _getting_ deep object properties, check out [`dlv`](https://github.com/developit/dlv)
+For _getting_ deep object properties, check out [`dlv`](https://github.com/developit/dlv)</br>
 For _setting_ deep object properties, check out [`dset`](https://github.com/lukeed/dset)
 
 This library was heavily inspired by both!
